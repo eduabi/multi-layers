@@ -1,0 +1,32 @@
+<!Doctype html>
+<html xmlns=http://www.w3.org/1999/xhtml>
+<head>                  
+    <meta http-equiv=Content-Type content="text/html;charset=utf-8">
+    <meta http-equiv=X-UA-Compatible content="IE=edge,chrome=1">
+    <meta content=always name=referrer>
+    <title>multi-layers地图组件库</title>
+    <link href="./node_modules/ol/ol.css" rel="stylesheet" type="text/css" />
+    <link href="./index.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdn.polyfill.io/v2/polyfill.min.js?features=requestAnimationFrame,Element.prototype.classList,URL"></script>
+</head>
+
+<body>
+    <div id="map" class="map"></div>
+    <button id="rotate-left" title="Rotate clockwise">↻</button>
+    <button id="rotate-right" title="Rotate counterclockwise">↺</button>
+    <button id="pan-to-london">Pan to London</button>
+    <button id="elastic-to-moscow">Elastic to Moscow</button>
+    <button id="bounce-to-istanbul">Bounce to Istanbul</button>
+    <button id="spin-to-rome">Spin to Rome</button>
+    <button id="fly-to-bern">Fly to Bern</button>
+    <button id="rotate-around-rome">Rotate around Rome</button>
+    <button id="tour">Take a tour</button>
+    <script>
+        document.addEventListener('DOMContentLoaded',function(){//DOM Tree加载完成后执行
+            console.log('dom tree生成完毕！')
+        })
+    </script>
+    <script src="./index.js"></script>
+</body>
+
+</html>

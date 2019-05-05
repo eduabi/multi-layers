@@ -1,0 +1,29 @@
+{
+  "name": "multi-layers",
+  "version": "1.0.0",
+  "description": "基于openlayers地图引擎开发的地图组件库",
+  "main": "main.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/eduabi/multi-layers.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/eduabi/multi-layers/issues"
+  },
+  "homepage": "https://github.com/eduabi/multi-layers#readme",
+  "dependencies": {
+    "ol": "^5.3.2"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-preset-env": "^1.7.0",
+    "parcel-bundler": "^1.12.3"
+  }
+}
